@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mainnav,#maincontent {
+	margin-top:100px;
+}
+#globalnav {
+	background-color:#fff;
+	height:100px;
+}
+#globalnav h1 {
+	background:url(http://www.luc.edu/media/home/images/luc-logo.png) 100% no-repeat ;
+	text-indent:-9999px;
+	width:305px;
+	height:67px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+ 
+ .bg-gray {
+    background-color: #ccc;
+}
+.bg-smoke {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+
+#footer-nav {height:450px;}
+#footer-nav .dropdown-menu{display:block;}
+#footer-nav .dropdown ul{display:block;width:300px;}
+
+ul#global-links li a {
+    font-size: 10px;
+}
+ul#global-links li a {
+    color: #999999;
+    font-family: "Forza SSm 5r","Forza SSm A","Forza SSm B","museo-sans","Arial";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#global-form{width:75%;float:right;}
+
+#global-form button.btn {
+    color: #272727;
+    font-family: "Vitesse SSm 7r","Vitesse SSm A","Vitesse SSm B","museo-sans",Arial,sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+#global-form a.btn {
+    float: right;
+}
+#global-form .btn {
+    background-color: #f5f5f5;
+}
+#global-form input { height:30px;
+
+}
+#mainnav {min-height:0;}
+
+#mainnav a {
+    color: #eeeeee;
+    display: block;
+    font-family: "Forza SSm 5r","Forza SSm A","Forza SSm B","museo-sans","Arial";
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.2;
+    padding: 8px 15px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 20;
+}
+
+#mainnav ul li a {
+    border-left: 1px solid #676767;
+    font-size: 13px;
+}
+
+#cta, #footer-address{    padding: 20px 0;}
+
+
+.dropdown  ul {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.85);
+    box-shadow: 0 2px 3px rgba(50, 50, 50, 0.5);
+    display: none;
+    margin: 0 0 0 0;
+    padding: 0 0 15px;
+    position: absolute;
+    top: 31px;
+    width: 220px;
+    z-index: 15;
+	
+}
+#mainnav .dropdown ul li a {text-transform:none;}
+#mainnav .dropdown ul li a:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    text-decoration: underline;
+}
