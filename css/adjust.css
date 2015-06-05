@@ -26,10 +26,95 @@
     color: #fff;
 }
 
+/*Neeed to clean this up, just taken directly from existing*/
 
-#footer-nav {height:450px;}
-#footer-nav .dropdown-menu{display:block;}
-#footer-nav .dropdown ul{display:block;width:300px;}
+li#nav-mobile {
+    display: none;
+}
+.close {
+    display: none;
+}
+footer {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    border-top: 1px solid #777777;
+    padding: 20px 0;
+}
+footer ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+footer #footer-links {
+    float: left;
+    padding: 0;
+}
+
+footer #footer-links ul li {
+    float: left;
+    list-style-image: none;
+    margin: 0 10px 3px 0;
+    min-height: auto;
+    padding: 0 10px 0 0;
+    text-align: left;
+    width: 135px;
+}
+#footer-links .multilevel-linkul-0 {
+    margin-top: 15px;
+}
+
+footer #footer-links ul li ul.multilevel-linkul-0 li {
+    border-bottom: 1px solid #676767;
+    border-right: medium none;
+    float: none;
+    margin: 0 0 8px;
+    min-height: 0;
+    padding: 0;
+    text-align: left;
+    width: auto;
+}
+footer #footer-links ul li ul.multilevel-linkul-0 li:last-child {
+    margin: 0;
+}
+footer #footer-links ul li ul li a {
+    margin-top: 10px;
+}
+footer #footer-links ul li a {
+    color: #cccccc;
+    display: block;
+    font-family: "Forza SSm 5r","Forza SSm A","Forza SSm B","museo-sans","Arial";
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: 0;
+    text-decoration: none;
+}
+footer #footer-links ul li a {
+    color: #cccccc;
+    font-size: 12.5px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 7px;
+    margin-top: -2px;
+    text-transform: uppercase;
+}
+footer #footer-links ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+footer #footer-links ul li ul li a {
+    color: #cccccc;
+    font-family: "Forza SSm 5r","Forza SSm A","Forza SSm B","museo-sans","Arial";
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: 10px;
+    text-transform: none;
+}
+
+
+/*End clean up*/
 
 ul#global-links li a {
     font-size: 10px;
@@ -54,9 +139,7 @@ ul#global-links li a {
     text-shadow: none;
     text-transform: uppercase;
 }
-#global-form a.btn {
-    float: right;
-}
+
 #global-form .btn {
     background-color: #f5f5f5;
 }
@@ -87,7 +170,7 @@ ul#global-links li a {
     font-size: 13px;
 }
 
-#cta, #footer-address{    padding: 20px 0;}
+#cta{    padding: 20px 0;}
 
 
 .dropdown  ul {
