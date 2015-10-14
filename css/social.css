@@ -1,27 +1,29 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#social ul {
+#social {
+	float: right !important;
     margin: 0;
+    padding: 0;
 }
-.social li {
-    background-color: #525252;
-    border-radius: 4px;
+#social li {
     float: left;
+    border-radius: 4px;
     height: 33px;
     list-style: outside none none;
     margin: 0 10px 0 0;
     overflow: hidden;
     width: 33px;
+	background-color: #525252;
 }
-.social li:first-child {
+#social li:first-child {
     margin-left: 0 !important;
     margin-right: 10px;
 }
-.social li:last-child {
+#social li:last-child {
     margin-right: 0;
 }
-.social li a {
+#social li a {
     background: url("http://www.luc.edu/media/home/images/social-icons-logos-33-070714.png") no-repeat scroll 0 0 #525252;
     border-radius: 4px;
     display: block;
@@ -46,61 +48,61 @@
     display: block;
     margin: 0;
 }
-.social li a:hover {
+#social li a:hover {
     background-color: #680013;
     transition: background-color 0.2s ease-in 0s;
 }
-.social li a.icon-fb {
+#social li a.icon-fb {
     background-position: 0 0;
 }
-.social li a.icon-fb:hover {
+#social li a.icon-fb:hover {
     background-position: 0 0;
 }
-.social li a.icon-tw {
+#social li a.icon-tw {
     background-position: 0 -33px;
 }
-.social li a.icon-tw:hover {
+#social li a.icon-tw:hover {
     background-position: 0 -33px;
 }
-.social li a.icon-yt {
+#social li a.icon-yt {
     background-position: 0 -66px;
 }
-.social li a.icon-yt:hover {
+#social li a.icon-yt:hover {
     background-position: 0 -66px;
 }
-.social li a.icon-fl {
+#social li a.icon-fl {
     background-position: 0 -99px;
 }
-.social li a.icon-fl:hover {
+#social li a.icon-fl:hover {
     background-position: 0 -99px;
 }
-.social li a.icon-li {
+#social li a.icon-li {
     background-position: 0 -132px;
 }
-.social li a.icon-li:hover {
+#social li a.icon-li:hover {
     background-position: 0 -132px;
 }
-.social li a.icon-ig {
+#social li a.icon-ig {
     background-position: 0 -165px;
 }
-.social li a.icon-ig:hover {
+#social li a.icon-ig:hover {
     background-position: 0 -165px;
 }
-.social li a.icon-pi {
+#social li a.icon-pi {
     background-position: 0 -198px;
 }
-.social li a.icon-pi:hover {
+#social li a.icon-pi:hover {
     background-position: 0 -198px;
 }
-.social li a.icon-instagram {
+#social li a.icon-instagram {
     background-position: 0 -231px;
 }
-.social li a.icon-instagram:hover {
+#social li a.icon-instagram:hover {
     background-position: 0 -231px;
 }
-.social li a.icon-google {
+#social li a.icon-google {
     background-position: 0 -363px;
 }
-.social li a.icon-google:hover {
+#social li a.icon-google:hover {
     background-position: 0 -363px;
 }

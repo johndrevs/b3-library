@@ -1,380 +1,554 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="icon" href="../../favicon.ico">
-<title>Loyola University Chicago</title>
 
-<!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../../favicon.ico">
+	<title>Loyola University Chicago GH-Pages</title>
 
-<!-- Custom styles for this template -->
-<link href="http://getbootstrap.com/examples/starter-template/starter-template.css" rel="stylesheet">
-<link href="http://www.luc.edu/media/home/stylesheets/button-loyola.css" media="" type="text/css" rel="stylesheet">
-<!-- Vitesse / Forza Fonts -->
-<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6236852/700402/css/fonts.css" />
-<link rel="stylesheet" href="css/social.css">
-<link rel="stylesheet" href="css/adjust.css">
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+	<!-- Custom styles for this template -->
+	<link href="http://getbootstrap.com/examples/starter-template/starter-template.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/button-loyola.css">
+	<link rel="stylesheet" href="css/social.css">
+	<link rel="stylesheet" href="css/adjust.css">
 
-<body>
-<div class="header clearfixnavbar navbar-fixed-top" id="globalnav">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7">
-        <h1 class="text-muted">Loyola University Chicago</h1>
-      </div>
-      <div class="col-md-5">
-        <nav class="row">
-          <div class="col-md-12">
-            <ul class="nav nav-pills pull-right" id="global-links">
-              <li><a href="http://www.luc.edu/give/">Support LUC</a></li>
-              <li><a href="http://www.luc.edu/locus/">LOCUS</a></li>
-              <li><a href="http://www.luc.edu/directories/index.shtml">Directories</a></li>
-              <li><a href="http://www.luc.edu/about/contactus.shtml">Contact</a></li>
-              <li><a href="http://www.luc.edu/a-z/index.html">A&ndash;Z</a></li>
-            </ul>
-          </div>
-          <div class="col-md-12 text-right">
-            <form id="global-form">
-              <div class="input-group">
-                <div class="input-group-btn">
-                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Links <span class="caret"></span></button>
-                  <ul class="dropdown-menu" role="menu">
-                    <ul class="first-of-type">
-                      <li class="yuimenuitem"><a href="https://outlook.luc.edu">E-Mail</a> </li>
-                      <li class="yuimenuitem"><a href="https://sakai.luc.edu/">Sakai</a> </li>
-                      <li class="yuimenuitem"><a href="http://www.luc.edu/kronos">KRONOS Timecard</a> </li>
-                      <li class="yuimenuitem"><a href="http://www.luc.edu/locus/">LOCUS</a> </li>
-                      <li class="yuimenuitem"><a href="https://pellonia.luc.edu/iuadmin">Personal Account Manager</a></li>
-                    </ul>
-                  </ul>
-                </div>
-                <!-- /btn-group -->
-                <input type="text" class="form-control" aria-label="...">
-                <span class="input-group-btn">
-                <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
-                </span> </div>
-              <!-- /input-group -->
+	<!-- Antenna -->
+	<link href="//cloud.webtype.com/css/fc40075b-4598-4a73-9a3d-4ffb7997faa8.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" media="" href="https://luc.edu/media/lucedu/fonts/antenna.css" />
+	
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->   
+	</head>
+
+	<body>
+	<div class="jumbotron navbar-fixed-top" id="header">
+		<div class="container">
+			<div class="row">   
+				<div id="wordmark-wrapper" class="col-sm-6">
+					<!-- <h1 class="text-muted" style="display: none; position: fixed;">Loyola University Chicago</h1> -->
+					<img class="img-responsive" id="wordmark" src="http://www.luc.edu/media/home/images/luc-logo.png"/>
+				</div>
+				<div id="global-form-wrapper" class="col-md-4 col-sm-6 col-md-offset-2">
+					<div class="row">
+						<nav id="global" class="navbar navbar-inverse">
+      						<div id="navbar-global">
+        						<ul class="nav navbar-nav" id="global-links" role="navigation">
+          							
+									<li><a href="http://www.luc.edu/a-z/index.html">A&ndash;Z</a></li>
+									<li><a href="http://www.luc.edu/about/contactus.shtml">Contact</a></li>
+									<li><a href="http://www.luc.edu/directories/index.shtml">Directories</a></li>
+									<li><a href="http://www.luc.edu/locus/">LOCUS</a></li>
+									<li><a href="http://www.luc.edu/give/">Support</a></li>
+        						</ul>
+      						</div><!-- NAVBAR-GLOBAL -->	
+						</nav>
+					</div>
+					<div class="row">
+            			<form id="global-form" class="col-sm-6">
+         					<div class="input-group search-wrapper">
+          			 			<div class="input-group-btn links">
+          		   					<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Links <i class="glyphicon glyphicon-chevron-right"></i></button>
+           	   							<ul class="dropdown-menu" role="menu">
+                    						<ul class="dropdown-menu-primary"><!-- PRIMARY LINKS -->
+                    							<li class="yuimenuitem"><a href="https://outlook.luc.edu">E-Mail</a> </li>
+                    							<li class="yuimenuitem"><a href="https://sakai.luc.edu/">Sakai</a> </li>
+                    							<li class="yuimenuitem"><a href="http://www.luc.edu/kronos">KRONOS Timecard</a> </li>
+                      							<li class="yuimenuitem"><a href="http://www.luc.edu/locus/">LOCUS</a> </li>
+                      							<li class="yuimenuitem"><a href="https://pellonia.luc.edu/iuadmin">Personal Account Manager</a></li>
+                    						</ul>
+                    						<ul class="dropdown-menu-secondary"><!-- SECONDARY LINKS -->
+											</ul>
+										</ul>
+								</div><!-- INPUT-GROUP-BTN -->
+                					<input type="text" class="form-control" aria-label="...">
+                						<span class="input-group-btn search">
+                							<button class="btn btn-default btn-sm" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                						</span>
+                					</input>
+                			</div><!-- INPUT-GROUP -->
+            			</form>
+					</div>
+          		</div><!-- GLOBAL-FORM-WRAPPER -->
+			</div>
+  		</div>
+	</div><!-- JUMBOTRON -->
+
+
+	<nav class="fullbleed bg-smoke navbar-fixed-top homenav" id="nav-box">
+		<div class="container">
+			<div class="row">
+			<div id="subsite-nav" class="navbar">
+				<div class="navbar">
+					<a class="btn btn-navbar left smoothscroll" href="#footer">
+						<i class="glyphicon glyphicon-search"></i>
+                	</a>
+					<a class="btn btn-navbar smoothscroll" data-toggle="collapse" data-target=".navbar-collapse" href="#footer">
+						<i class="glyphicon glyphicon-menu-hamburger"></i>
+					</a>
+					<div class="collapse navbar-collapse" id="navbar-main">
+
+						<ul id="nav" class="nav navbar-nav" role="navigation"><!-- navigation object : Home Menu -->
+						<li><a href="/about_loyola.shtml">About</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="/president/index.shtml">Office of the President</a></li>
+								<li><a href="/ataglance/">At a Glance</a></li>
+								<li><a href="http://www.luc.edu/mission/index.shtml">Jesuit Catholic Identity</a></li>
+								<li><a href="/visit.shtml">Visit Campus</a></li>
+								<li><a href="/about/chicago.shtml">Loyola and Chicago</a></li>
+								<li><a href="/boardoftrustees/">Board of Trustees</a></li>
+								<li><a href="/president/governance/presidentscabinet/">President's Cabinet</a></li>
+								<li><a href="http://www.luc.edu/regents/index.shtml">Council of Regents</a></li>
+								<li><a href="/accreditation/index.shtml">Accreditation</a></li>
+							</ul>
+						</li>
+						<li><a href="/academicsresearch.shtml">Academics</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="http://luc.edu/academicaffairs/">Academic Affairs</a></li>
+								<li><a href="/academics/schools.shtml">Colleges and Schools</a></li>
+								<li><a href="/academics/depts.shtml">Departments</a></li>
+								<li><a href="/academics/programs.shtml">Programs</a></li>
+								<li><a href="http://www.luc.edu/online/index.shtml">Online Learning</a></li>
+								<li><a href="/academics/schedules/index.shtml">Calendars and Schedules</a></li>
+								<li><a href="http://www.luc.edu/ors/index.shtml">Research</a></li>
+								<li><a href="http://www.luc.edu/studyabroad/index.shtml">Study Abroad Programs</a></li>
+								<li><a href="http://www.luc.edu/academics/catalog/undergrad/index.shtml">Undergraduate Catalog</a></li>
+								<li><a href="http://www.luc.edu/health-sciences-division/index.shtml">Health Sciences Division</a></li>
+							</ul>
+						</li>
+						<li><a href="/admission.shtml">Admission</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="http://www.luc.edu/undergrad/">Undergraduate Admission</a></li>
+								<li><a href="/gpem/index.html">Grad/Professional Admission</a></li>
+								<li><a href="http://www.luc.edu/adult-education/index.shtml">Adult Education</a></li>
+								<li><a href="http://www.luc.edu/quinlan/executive-education/index.shtml">Executive Education</a></li>
+								<li><a href="http://www.luc.edu/internationaladmission/index.shtml">International Admission</a></li>
+								<li><a href="http://www.luc.edu/bursar/tuition.shtml">Tuition and Fees</a></li>
+								<li><a href="http://www.luc.edu/finaid/index.shtml">Financial Aid</a></li>
+								<li><a href="http://www.luc.edu/studyabroad/">Study Abroad</a></li>
+								<li><a href="/januaryterm/index.shtml">J-Term</a></li>
+								<li><a href="http://www.luc.edu/summer/">Summer Sessions</a></li>
+							</ul>
+						</li>
+						<li><a href="/alumni/">Alumni</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=804">News</a></li>
+								<li><a href="http://alumni.luc.edu/s/1548/alumni/social.aspx?sid=1548&gid=2&pgid=401">Events</a></li>
+								<li><a href="http://www.alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=403">Career Services</a></li>
+								<li><a href="http://www.alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=402">Clubs and Groups</a></li>
+								<li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=404">Alumni Services</a></li>
+								<li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=405">Get Involved</a></li>
+								<li><a href="http://luc.edu/giving/">Giving to Loyola</a></li>
+							</ul>
+						</li>
+						<li><a href="/campus_community.shtml">Campus Life</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="http://www.loyolaramblers.com/">Athletics</a></li>
+								<li><a href="http://www.luc.edu/reslife/index.shtml">Residence Life</a></li>
+								<li><a href="http://www.luc.edu/studentdevelopment/index.shtml">Student Development</a></li>
+								<li><a href="http://www.luc.edu/saga/">Student Life</a></li>
+								<li><a href="http://www.luc.edu/dos/">Dean of Students</a></li>
+								<li><a href="/ramblerbuzz/">Rambler Buzz</a></li>
+								<li><a href="http://www.luc.edu/campusministry/index.shtml">Campus Ministry</a></li>
+								<li><a href="http://www.luc.edu/diversity/">Student Diversity</a></li>
+								<li><a href="/about/chicago.shtml">Loyola &amp; Chicago</a></li>
+								<li><a href="/luma/index.shtml">Museum of Art</a></li>
+								<li><a href="/visit/">Visit</a></li>
+								<li><a href="/safety/index.html">Campus Safety</a></li>
+							</ul>
+						</li>
+						<li><a href="/services_resources.shtml">Resources</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="https://locus.luc.edu">LOCUS</a></li>
+								<li><a href="http://www.luc.edu/bursar/index.shtml">Bursar and Business Office</a></li>
+								<li><a href="/students/careers/index.shtml">Career Centers</a></li>
+								<li><a href="http://www.luc.edu/hr/index.shtml">Human Resources</a></li>
+								<li><a href="http://www.luc.edu/its/">Information Technology Services</a></li>
+								<li><a href="http://www.luc.edu/ic/">Klarchek Information Commons</a></li>
+								<li><a href="http://www.luc.edu/onestop/index.shtml">Student Academic Services</a></li>
+								<li><a href="http://www.luc.edu/regrec/index.shtml">Registration and Records</a></li>
+								<li><a href="http://libraries.luc.edu/">University Libraries</a></li>
+								<li><a href="http://www.luc.edu/alumni">Alumni Relations</a></li>
+								<li><a href="http://www.luc.edu/news">University Newsroom</a></li>
+								<li><a href="http://www.luc.edu/archives/index.shtml">University Archives</a></li>
+							</ul>
+						</li>
+      					</ul><!-- #nav --> 
+
+					</div><!-- #navbar-main -->
+				</div><!-- navbar -->
+				</div>
+			</div><!-- subsite-nav -->
+		</div><!-- container -->
+	</nav><!-- nav-box -->
+
+  	
+  	<div class="fullbleed bg-smoke navbar-fixed-top subnave" id="nav-box">
+		<div class="container">
+		<div class="row">
+			<div id="subsite-nav" class="navbar navbar-inverse">
+				<div class="navbar">
+					<a class="btn btn-navbar smoothscroll" id="search-button-position" href="#footer">
+						<i class="glyphicon glyphicon-search"></i>
+                	</a>
+					<a class="btn btn-navbar smoothscroll" data-target=".nav-collapse" href="#footer">
+						<i class="glyphicon glyphicon-menu-hamburger"></i>
+					</a>
+          		<div class="nav-collapse collapse">
+            		<ul class="nav"><!-- navigation object : Home Menu -->
+						<li><a href="/about_loyola.shtml">About</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="/president/index.shtml">Office of the President</a></li>
+								<li><a href="/ataglance/">At a Glance</a></li>
+								<li><a href="http://www.luc.edu/mission/index.shtml">Jesuit Catholic Identity</a></li>
+								<li><a href="/visit.shtml">Visit Campus</a></li>
+								<li><a href="/about/chicago.shtml">Loyola and Chicago</a></li>
+								<li><a href="/boardoftrustees/">Board of Trustees</a></li>
+								<li><a href="/president/governance/presidentscabinet/">President's Cabinet</a></li>
+								<li><a href="http://www.luc.edu/regents/index.shtml">Council of Regents</a></li>
+								<li><a href="/accreditation/index.shtml">Accreditation</a></li>
+							</ul>
+						</li>
+						<li><a href="/academicsresearch.shtml">Academics</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="http://luc.edu/academicaffairs/">Academic Affairs</a></li>
+								<li><a href="/academics/schools.shtml">Colleges and Schools</a></li>
+								<li><a href="/academics/depts.shtml">Departments</a></li>
+								<li><a href="/academics/programs.shtml">Programs</a></li>
+								<li><a href="http://www.luc.edu/online/index.shtml">Online Learning</a></li>
+								<li><a href="/academics/schedules/index.shtml">Calendars and Schedules</a></li>
+								<li><a href="http://www.luc.edu/ors/index.shtml">Research</a></li>
+								<li><a href="http://www.luc.edu/studyabroad/index.shtml">Study Abroad Programs</a></li>
+								<li><a href="http://www.luc.edu/academics/catalog/undergrad/index.shtml">Undergraduate Catalog</a></li>
+								<li><a href="http://www.luc.edu/health-sciences-division/index.shtml">Health Sciences Division</a></li>
+							</ul>
+						</li>
+						<li><a href="/admission.shtml">Admission</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="http://www.luc.edu/undergrad/">Undergraduate Admission</a></li>
+								<li><a href="/gpem/index.html">Grad/Professional Admission</a></li>
+								<li><a href="http://www.luc.edu/adult-education/index.shtml">Adult Education</a></li>
+								<li><a href="http://www.luc.edu/quinlan/executive-education/index.shtml">Executive Education</a></li>
+								<li><a href="http://www.luc.edu/internationaladmission/index.shtml">International Admission</a></li>
+								<li><a href="http://www.luc.edu/bursar/tuition.shtml">Tuition and Fees</a></li>
+								<li><a href="http://www.luc.edu/finaid/index.shtml">Financial Aid</a></li>
+								<li><a href="http://www.luc.edu/studyabroad/">Study Abroad</a></li>
+								<li><a href="/januaryterm/index.shtml">J-Term</a></li>
+								<li><a href="http://www.luc.edu/summer/">Summer Sessions</a></li>
+							</ul>
+						</li>
+						<li><a href="/alumni/">Alumni</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=804">News</a></li>
+								<li><a href="http://alumni.luc.edu/s/1548/alumni/social.aspx?sid=1548&gid=2&pgid=401">Events</a></li>
+								<li><a href="http://www.alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=403">Career Services</a></li>
+								<li><a href="http://www.alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=402">Clubs and Groups</a></li>
+								<li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=404">Alumni Services</a></li>
+								<li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=405">Get Involved</a></li>
+								<li><a href="http://luc.edu/giving/">Giving to Loyola</a></li>
+							</ul>
+						</li>
+						<li><a href="/campus_community.shtml">Campus Life</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="http://www.loyolaramblers.com/">Athletics</a></li>
+								<li><a href="http://www.luc.edu/reslife/index.shtml">Residence Life</a></li>
+								<li><a href="http://www.luc.edu/studentdevelopment/index.shtml">Student Development</a></li>
+								<li><a href="http://www.luc.edu/saga/">Student Life</a></li>
+								<li><a href="http://www.luc.edu/dos/">Dean of Students</a></li>
+								<li><a href="/ramblerbuzz/">Rambler Buzz</a></li>
+								<li><a href="http://www.luc.edu/campusministry/index.shtml">Campus Ministry</a></li>
+								<li><a href="http://www.luc.edu/diversity/">Student Diversity</a></li>
+								<li><a href="/about/chicago.shtml">Loyola &amp; Chicago</a></li>
+								<li><a href="/luma/index.shtml">Museum of Art</a></li>
+								<li><a href="/visit/">Visit</a></li>
+								<li><a href="/safety/index.html">Campus Safety</a></li>
+							</ul>
+						</li>
+						<li><a href="/services_resources.shtml">Resources</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="https://locus.luc.edu">LOCUS</a></li>
+								<li><a href="http://www.luc.edu/bursar/index.shtml">Bursar and Business Office</a></li>
+								<li><a href="/students/careers/index.shtml">Career Centers</a></li>
+								<li><a href="http://www.luc.edu/hr/index.shtml">Human Resources</a></li>
+								<li><a href="http://www.luc.edu/its/">Information Technology Services</a></li>
+								<li><a href="http://www.luc.edu/ic/">Klarchek Information Commons</a></li>
+								<li><a href="http://www.luc.edu/onestop/index.shtml">Student Academic Services</a></li>
+								<li><a href="http://www.luc.edu/regrec/index.shtml">Registration and Records</a></li>
+								<li><a href="http://libraries.luc.edu/">University Libraries</a></li>
+								<li><a href="http://www.luc.edu/alumni">Alumni Relations</a></li>
+								<li><a href="http://www.luc.edu/news">University Newsroom</a></li>
+								<li><a href="http://www.luc.edu/archives/index.shtml">University Archives</a></li>
+							</ul>
+						</li>            		
+            		</ul>
+				</div>	<!-- .nav-collapse -->
+				</div>	<!-- navbar --> 
+      		</div>	<!-- subsite-nav -->
+      	</div>
+    	</div>		<!-- container --> 
+  	</div>			<!-- fullbleed -->
+
+<!-- main-content -->
+
+	<div class="container" id="main-content">
+		<div class="row">
+			<div class="col-md-6 col-md-push-3 module">
+			<div class="col-sm-12 bg-white col-padding-add">
+				<h3 class="antenna-black text-center text-uppercase">Center Column</h1>
+				<p class="lead antenna text-center text-uppercase">Use this document as a way to quickly start any new project.</p>
+				<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit ligula a justo dignissim, in suscipit magna lobortis. Donec auctor iaculis maximus. Morbi nulla erat, lacinia ut lacus et, pulvinar cursus nunc. Proin id imperdiet velit, ac accumsan lacus. Mauris bibendum eget magna at tempor. Duis sed enim ac enim porttitor</p>
+			</div>
+			</div>
+			<div class="col-md-3 col-md-pull-6 module">
+			<div class="col-sm-12 bg-white col-padding-add">
+				<h3 class="antenna-black text-center text-uppercase">Left Column</h1>
+				<p class="lead antenna text-center text-uppercase">Use this document as a way to quickly start any new project.</p>
+				<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit ligula a justo dignissim, in suscipit magna lobortis. Donec auctor iaculis maximus. Morbi nulla erat, lacinia ut lacus et, pulvinar cursus nunc. Proin id imperdiet velit, ac accumsan lacus. Mauris bibendum eget magna at tempor. Duis sed enim ac enim porttitor</p>
+			</div>
+			</div>
+			<div class="col-md-3">
+			<div class="col-sm-12 bg-white col-padding-add module">
+				<h3 class="antenna-black text-center text-uppercase">Right Column</h1>
+				<p class="lead antenna text-center text-uppercase">Use this document as a way to quickly start any new project.</p>
+				<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit ligula a justo dignissim, in suscipit magna lobortis. Donec auctor iaculis maximus. Morbi nulla erat, lacinia ut lacus et, pulvinar cursus nunc. Proin id imperdiet velit, ac accumsan lacus. Mauris bibendum eget magna at tempor. Duis sed enim ac enim porttitor</p>
+			</div>
+			</div>
+		</div>
+	</div>
+
+<!-- main-content -->
+
+<!-- footer-content -->
+
+	<!-- footer-content cta -->
+
+	<section id="footer-content" class="">
+	<div class="container-fluid" id="cta">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="col-span-25">
+						<div class="btn-group">
+							<button class="btn cta">Apply<span class="apply">&nbsp;now</span></button>
+							<button class="btn dropdown-toggle cta" data-toggle="dropdown"><i class="glyphicon glyphicon-chevron-right"></i></button>
+              					<ul class="dropdown-menu">
+									<li><a href="https://uao.luc.edu/apply/" onclick="ga('send', 'event', 'Clicks', 'Apply-Undergraduate', 'Home Page');">Undergraduate</a></li>
+									<li><a href="https://gpem.luc.edu/apply/" onclick="ga('send', 'event', 'Clicks', 'Apply-Graduate', 'Home Page');">Graduate/ Professional</a></li>
+									<li><a href="https://gpem.luc.edu/apply/" onclick="ga('send', 'event', 'Clicks', 'Apply-Adult', 'Home Page');">Adult Education</a></li>
+								</ul>
+						</div>
+					</div>
+          			<div class="col-span-25">
+						<div class="btn-group">
+							<button class="btn cta"><span class="info">Get&nbsp;</span>info</button>
+							<button class="btn dropdown-toggle cta" data-toggle="dropdown"><i class="glyphicon glyphicon-chevron-right"></i></button>
+								<ul class="dropdown-menu">
+									<li><a href="https://uao.luc.edu/register/?id=09e1ac8b-c620-43cc-afe7-325cad54eec2" onclick="ga('send', 'event', 'Clicks', 'RFI-Undergraduate', 'Home Page');">Undergraduate</a></li>
+									<li><a href="http://www.luc.edu/gpem/rfi" onclick="ga('send', 'event', 'Clicks', 'RFI-Graduate', 'Home Page');">Graduate/ Professional</a></li>
+									<li><a href="http://www.luc.edu/adult-education/rfi/index.shtml" onclick="ga('send', 'event', 'Clicks', 'RFI-Adult', 'Home Page');">Adult Education</a></li>
+								</ul>
+						</div>
+					</div>
+					<div class="col-span-25"> <a href="http://www.luc.edu/visit.shtml" onclick="ga('send', 'event', 'Clicks', 'Come Visit', 'Home Page');">
+						<button class="btn cta visit"><span class="visit">Come&nbsp;</span>visit</button></a>
+					</div>
+          			<div class="col-span-25"> <a href="http://www.luc.edu/give/" onclick="ga('send', 'event', 'Clicks', 'Give to Loyola', 'Home Page');">
+            			<button class="btn cta">Give<span class="give">&nbsp;to Loyola</span></button></a>
+            		</div>
+            	</div>
+          		<div id="social-wrapper" class="col-md-4 col-md-12"><!-- NAVIGATION OBJECT : CTA-SOCIAL ICONS -->
+					<ul id="social">
+						<!-- FACEBOOK -->
+						<li><a onclick="ga('send', 'event', 'Footer', 'Social Media Buttons', 'Facebook');" href="http://www.facebook.com/LoyolaChicago" class="icon-fb" target="_self" title="Follow Us on Facebook"></a></li>
+              			<!-- TWITTER -->
+              			<li><a onclick="ga('send', 'event', 'Footer', 'Social Media Buttons', 'Twitter');" href="http://www.twitter.com/LoyolaChicago" class="icon-tw" target="_self" title="Follow Us on Twitter"></a></li>
+              			<!-- FLICKR -->
+              			<li><a onclick="ga('send', 'event', 'Footer', 'Social Media Buttons', 'Flickr');" href="http://www.flickr.com/photos/loyolauniversitychicago/" class="icon-fl" target="_self" title="Follow Us on Flickr"></a></li>
+              			<!-- LINKEDIN -->
+              			<li><a onclick="ga('send', 'event', 'Footer', 'Social Media Buttons', 'LinkedIn');" href="https://www.linkedin.com/edu/loyola-university-chicago-18277" class="icon-li" target="_self" title="Follow Us on LinkedIn"></a></li>
+              			<!-- RSS LINK -->
+              			<!-- YOUTUBE -->
+              			<li><a onclick="ga('send', 'event', 'Footer', 'Social Media Buttons', 'YouTube');" href="http://www.youtube.com/LoyolaChicago" class="icon-yt" target="_self" title="Follow Us on You Tube"></a></li>
+              			<!-- PINTEREST --> 
+              			<!-- INSTAGRAM -->
+              			<li><a onclick="ga('send', 'event', 'Footer', 'Social Media Buttons', 'Instagram');" href="http://instagram.com/loyolachicago" class="icon-instagram" target="_self" title="Follow Us on Instagram"></a></li>
+              			<!-- GOOGLE+ -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer-content -->
+	
+	<footer id="footer" class="bg-smoke">
+	
+	<!-- footer-content search -->
+
+	<div class="container">
+		<div class="row">
+			<form id="footer-global-form" class="col-md-12">
+				<div class="input-group search-wrapper">
+					<input type="text" class="form-control" aria-label="..." placeholder="Search">
+                		<span class="input-group-btn search">
+                			<button class="btn btn-default btn-sm" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                		</span>
+                	</input>
+                </div><!-- INPUT-GROUP -->
             </form>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </div>
-</div>
-<nav class="navbar navbar-fixed-top navbar-inverse bg-smoke" id="mainnav">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav" role="navigation">
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About</a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="/president/aboutloyola/welcomemessage/index.html">President's Welcome</a></li>
-              <li><a href="/ataglance/">At a Glance</a></li>
-              <li><a href="http://www.luc.edu/mission/index.shtml">Jesuit Catholic Identity</a></li>
-              <li><a href="/visit.shtml">Visit Campus</a></li>
-              <li><a href="/about/chicago.shtml">Loyola and Chicago</a></li>
-              <li><a href="http://www.luc.edu/health-sciences-division/index.shtml">Health Sciences Division</a></li>
-              <li><a href="/boardoftrustees/">Board of Trustees</a></li>
-              <li><a href="http://www.luc.edu/regents/index.shtml">Council of Regents</a></li>
-              <li><a href="http://www.luc.edu/archives/index.shtml">University Archives</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="/academicsresearch.shtml">Academics</a>
-            <ul class="multilevel-linkul-0 dropdown-menu" role="menu">
-              <li><a href="http://luc.edu/academicaffairs/">Academic Affairs</a></li>
-              <li><a href="/academics/schools.shtml">Colleges and Schools</a></li>
-              <li><a href="/academics/depts.shtml">Departments</a></li>
-              <li><a href="/academics/programs.shtml">Programs</a></li>
-              <li><a href="http://www.luc.edu/online/index.shtml">Online Learning</a></li>
-              <li><a href="/academics/schedules/index.shtml">Calendars and Schedules</a></li>
-              <li><a href="http://www.luc.edu/core/index.shtml">Core Curriculum</a></li>
-              <li><a href="http://www.luc.edu/regrec/index.shtml">Registration and Records</a></li>
-              <li><a href="http://www.luc.edu/ors/index.shtml">Research</a></li>
-              <li><a href="http://www.luc.edu/studyabroad/index.shtml">Study Abroad Programs</a></li>
-              <li><a href="http://www.luc.edu/summer/index.shtml">Summer Sessions</a></li>
-              <li><a href="/experiential/index.shtml">Experiential Learning</a></li>
-              <li><a href="http://www.luc.edu/academics/catalog/undergrad/index.shtml">Undergraduate Catalog</a></li>
-              <li><a href="/accreditation/index.shtml">Accreditation</a></li>
-              <li><a href="/januaryterm/index.shtml">J-Term</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="/admission.shtml">Admission</a>
-            <ul class="multilevel-linkul-0 dropdown-menu">
-              <li><a href="http://www.luc.edu/undergrad/">Undergraduate Admission</a></li>
-              <li><a href="/gpem/index.html">Grad/Professional Admission</a></li>
-              <li><a href="http://www.luc.edu/adult-education/index.shtml">Adult Education</a></li>
-              <li><a href="http://www.luc.edu/quinlan/executive-education/index.shtml">Executive Education</a></li>
-              <li><a href="http://www.luc.edu/internationaladmission/index.shtml">International Admission</a></li>
-              <li><a href="http://www.luc.edu/studyabroad/">Study Abroad</a></li>
-              <li><a href="http://www.luc.edu/summer/">Summer Sessions</a></li>
-              <li><a href="http://www.luc.edu/bursar/tuition.shtml">Tuition and Fees</a></li>
-              <li><a href="http://www.luc.edu/finaid/index.shtml">Financial Aid</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="/alumni/">Alumni</a>
-            <ul class="multilevel-linkul-0 dropdown-menu">
-              <li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&amp;gid=2&amp;pgid=804">News</a></li>
-              <li><a href="http://alumni.luc.edu/s/1548/alumni/social.aspx?sid=1548&amp;gid=2&amp;pgid=401">Events</a></li>
-              <li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&amp;gid=2&amp;pgid=805">Career Services</a></li>
-              <li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&amp;gid=2&amp;pgid=2107">Clubs and Groups</a></li>
-              <li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&amp;gid=2&amp;pgid=404">Alumni Services</a></li>
-              <li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&amp;gid=2&amp;pgid=405">Get Involved</a></li>
-              <li><a href="http://luc.edu/giving/">Giving to Loyola</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="/campus_community.shtml">Campus Life</a>
-            <ul class="multilevel-linkul-0 dropdown-menu">
-              <li><a href="http://www.loyolaramblers.com/">Athletics</a></li>
-              <li><a href="http://www.luc.edu/reslife/index.shtml">Residence Life</a></li>
-              <li><a href="http://www.luc.edu/studentdevelopment/index.shtml">Student Development</a></li>
-              <li><a href="http://www.luc.edu/saga/">Student Life</a></li>
-              <li><a href="http://www.luc.edu/dos/">Dean of Students</a></li>
-              <li><a href="/ramblerbuzz/">Rambler Buzz</a></li>
-              <li><a href="http://www.luc.edu/campusministry/index.shtml">Campus Ministry</a></li>
-              <li><a href="http://www.luc.edu/diversity/">Student Diversity</a></li>
-              <li><a href="/about/chicago.shtml">Loyola &amp; Chicago</a></li>
-              <li><a href="/luma/index.shtml">Museum of Art</a></li>
-              <li><a href="/visit/">Visit</a></li>
-              <li><a href="/safety/index.html">Campus Safety</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="/services_resources.shtml">Resources</a>
-            <ul class="multilevel-linkul-0 dropdown-menu">
-              <li><a href="https://locus.luc.edu">LOCUS</a></li>
-              <li><a href="http://www.luc.edu/bursar/index.shtml">Bursar and Business Office</a></li>
-              <li><a href="/students/careers/index.shtml">Career Centers</a></li>
-              <li><a href="http://www.luc.edu/hr/index.shtml">Human Resources</a></li>
-              <li><a href="http://www.luc.edu/its/">Information Technology Services</a></li>
-              <li><a href="http://www.luc.edu/ic/">Klarchek Information Commons</a></li>
-              <li><a href="http://www.luc.edu/onestop/index.shtml">Sullivan Center for Student Services</a></li>
-              <li><a href="http://libraries.luc.edu/">University Libraries</a></li>
-              <li><a href="http://www.luc.edu/alumni">Alumni Relations</a></li>
-              <li><a href="http://www.luc.edu/news">University Newsroom</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <!--/.nav-collapse --> 
-    </div>
-  </div>
-</nav>
-<div class="container-fluid" id="maincontent">
-  <div>
-    <h1>Bootstrap starter template</h1>
-    <p class="lead">Use this document as a way to quickly start any new project.<br>
-      All you get is this text and a mostly barebones HTML document.<br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-    </p>
-  </div>
-</div>
-<div class="col-sm-12 bg-gray" id="cta">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-2">
-        <div class="btn-group apply">
-          <button class="btn cta">Apply <span class="apply">now<span></span></span></button>
-          <button class="btn dropdown-toggle cta" data-toggle="dropdown"> <span class="caret"></span> </button>
-          <ul class="dropdown-menu">
-            <li><a href="https://uao.luc.edu/apply/" onClick="ga('send', 'event', 'Clicks', 'Apply-Undergraduate', 'Home Page');">Undergraduate</a></li>
-            <li><a href="https://gpem.luc.edu/apply/" onClick="ga('send', 'event', 'Clicks', 'Apply-Graduate', 'Home Page');">Graduate/ Professional</a></li>
-            <li><a href="https://gpem.luc.edu/apply/" onClick="ga('send', 'event', 'Clicks', 'Apply-Adult', 'Home Page');">Adult Education</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-sm-2">
-        <div class="btn-group info">
-          <button class="btn cta"><span class="info">Get</span> info</button>
-          <button class="btn dropdown-toggle cta" data-toggle="dropdown"> <span class="caret"></span> </button>
-          <ul class="dropdown-menu">
-            <li><a href="https://uao.luc.edu/register/?id=09e1ac8b-c620-43cc-afe7-325cad54eec2" onClick="ga('send', 'event', 'Clicks', 'RFI-Undergraduate', 'Home Page');">Undergraduate</a></li>
-            <li><a href="http://www.luc.edu/gpem/rfi" onClick="ga('send', 'event', 'Clicks', 'RFI-Graduate', 'Home Page');">Graduate/ Professional</a></li>
-            <li><a href="http://www.luc.edu/adult-education/rfi/index.shtml" onClick="ga('send', 'event', 'Clicks', 'RFI-Adult', 'Home Page');">Adult Education</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-sm-2"> <a href="http://www.luc.edu/visit.shtml" onClick="ga('send', 'event', 'Clicks', 'Come Visit', 'Home Page');">
-        <button class="btn cta visit"><span class="visit">Come</span> Visit</button>
-        </a> </div>
-      <div class="col-sm-2"> <a href="http://www.luc.edu/give/" onClick="ga('send', 'event', 'Clicks', 'Give to Loyola', 'Home Page');">
-        <button class="btn cta gift">Give to Loyola</button>
-        </a> </div>
-      <div class="col-sm-4 social-cta-global"> 
-        <!-- navigation object : cta-social-icons -->
-        <ul class="social">
-          <!-- FACEBOOK -->
-          <li><a onClick="ga('send', 'event', 'Footer', 'Social Media Buttons', 'Facebook');" href="http://www.facebook.com/LoyolaChicago" class="icon-fb" target="_self" title="Follow Us on Facebook"></a></li>
-          <!-- TWITTER -->
-          <li><a onClick="ga('send', 'event', 'Footer', 'Social Media Buttons', 'Twitter');" href="http://www.twitter.com/LoyolaChicago" class="icon-tw" target="_self" title="Follow Us on Twitter"></a></li>
-          <!-- FLICKR -->
-          <li><a onClick="ga('send', 'event', 'Footer', 'Social Media Buttons', 'Flickr');" href="http://www.flickr.com/photos/loyolauniversitychicago/" class="icon-fl" target="_self" title="Follow Us on Flickr"></a></li>
-          <!-- LINKEDIN -->
-          <li><a onClick="ga('send', 'event', 'Footer', 'Social Media Buttons', 'LinkedIn');" href="https://www.linkedin.com/edu/loyola-university-chicago-18277" class="icon-li" target="_self" title="Follow Us on LinkedIn"></a></li>
-          <!-- RSS LINK --> 
-          <!-- IGNATION
-<li><a href="http://www.luc.edu/ignation"  class='icon-ig' target="_self" title="Follow Us on igNation"></a></li>
- --> 
-          <!-- YOUTUBE -->
-          <li><a onClick="ga('send', 'event', 'Footer', 'Social Media Buttons', 'YouTube');" href="http://www.youtube.com/LoyolaChicago" class="icon-yt" target="_self" title="Follow Us on You Tube"></a></li>
-          <!-- PINTEREST --> 
-          <!-- INSTAGRAM -->
-          <li><a onClick="ga('send', 'event', 'Footer', 'Social Media Buttons', 'Instagram');" href="http://instagram.com/loyolachicago" class="icon-instagram" target="_self" title="Follow Us on Instagram"></a></li>
-          <!-- GOOGLE+ -->
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<footer id="footer" class="container-fluid">
-  <div class="row homenav">
-    <div class="col-sm-12" id="footer-links">
-      <div class="container">
-        <div class="row"><!-- navigation object : Home Menu -->
-          <ul id="nav">
-            <li class="close"><span onClick="$.pageslide.close()"><img src="http://www.luc.edu/media/home/images/icon-close.png" alt=""></span></li>
-            <li><a href="/about_loyola.shtml">About</a>
-              <ul class="multilevel-linkul-0">
-                <li><a href="/president/aboutloyola/welcomemessage/index.html">President's Welcome</a></li>
-                <li><a href="/ataglance/">At a Glance</a></li>
-                <li><a href="http://www.luc.edu/mission/index.shtml">Jesuit Catholic Identity</a></li>
-                <li><a href="/visit.shtml">Visit Campus</a></li>
-                <li><a href="/about/chicago.shtml">Loyola and Chicago</a></li>
-                <li><a href="http://www.luc.edu/health-sciences-division/index.shtml">Health Sciences Division</a></li>
-                <li><a href="/boardoftrustees/">Board of Trustees</a></li>
-                <li><a href="http://www.luc.edu/regents/index.shtml">Council of Regents</a></li>
-                <li><a href="http://www.luc.edu/archives/index.shtml">University Archives</a></li>
-              </ul>
-            </li>
-            <li><a href="/academicsresearch.shtml">Academics</a>
-              <ul class="multilevel-linkul-0">
-                <li><a href="http://luc.edu/academicaffairs/">Academic Affairs</a></li>
-                <li><a href="/academics/schools.shtml">Colleges and Schools</a></li>
-                <li><a href="/academics/depts.shtml">Departments</a></li>
-                <li><a href="/academics/programs.shtml">Programs</a></li>
-                <li><a href="http://www.luc.edu/online/index.shtml">Online Learning</a></li>
-                <li><a href="/academics/schedules/index.shtml">Calendars and Schedules</a></li>
-                <li><a href="http://www.luc.edu/core/index.shtml">Core Curriculum</a></li>
-                <li><a href="http://www.luc.edu/regrec/index.shtml">Registration and Records</a></li>
-                <li><a href="http://www.luc.edu/ors/index.shtml">Research</a></li>
-                <li><a href="http://www.luc.edu/studyabroad/index.shtml">Study Abroad Programs</a></li>
-                <li><a href="http://www.luc.edu/summer/index.shtml">Summer Sessions</a></li>
-                <li><a href="/experiential/index.shtml">Experiential Learning</a></li>
-                <li><a href="http://www.luc.edu/academics/catalog/undergrad/index.shtml">Undergraduate Catalog</a></li>
-                <li><a href="/accreditation/index.shtml">Accreditation</a></li>
-                <li><a href="/januaryterm/index.shtml">J-Term</a></li>
-              </ul>
-            </li>
-            <li><a href="/admission.shtml">Admission</a>
-              <ul class="multilevel-linkul-0">
-                <li><a href="http://www.luc.edu/undergrad/">Undergraduate Admission</a></li>
-                <li><a href="/gpem/index.html">Grad/Professional Admission</a></li>
-                <li><a href="http://www.luc.edu/adult-education/index.shtml">Adult Education</a></li>
-                <li><a href="http://www.luc.edu/quinlan/executive-education/index.shtml">Executive Education</a></li>
-                <li><a href="http://www.luc.edu/internationaladmission/index.shtml">International Admission</a></li>
-                <li><a href="http://www.luc.edu/studyabroad/">Study Abroad</a></li>
-                <li><a href="http://www.luc.edu/summer/">Summer Sessions</a></li>
-                <li><a href="http://www.luc.edu/bursar/tuition.shtml">Tuition and Fees</a></li>
-                <li><a href="http://www.luc.edu/finaid/index.shtml">Financial Aid</a></li>
-              </ul>
-            </li>
-            <li><a href="/alumni/">Alumni</a>
-              <ul class="multilevel-linkul-0">
-                <li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=804">News</a></li>
-                <li><a href="http://alumni.luc.edu/s/1548/alumni/social.aspx?sid=1548&gid=2&pgid=401">Events</a></li>
-                <li><a href="http://www.alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=403">Career Services</a></li>
-                <li><a href="http://www.alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=402">Clubs and Groups</a></li>
-                <li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=404">Alumni Services</a></li>
-                <li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=405">Get Involved</a></li>
-                <li><a href="http://luc.edu/giving/">Giving to Loyola</a></li>
-              </ul>
-            </li>
-            <li><a href="/campus_community.shtml">Campus Life</a>
-              <ul class="multilevel-linkul-0">
-                <li><a href="http://www.loyolaramblers.com/">Athletics</a></li>
-                <li><a href="http://www.luc.edu/reslife/index.shtml">Residence Life</a></li>
-                <li><a href="http://www.luc.edu/studentdevelopment/index.shtml">Student Development</a></li>
-                <li><a href="http://www.luc.edu/saga/">Student Life</a></li>
-                <li><a href="http://www.luc.edu/dos/">Dean of Students</a></li>
-                <li><a href="/ramblerbuzz/">Rambler Buzz</a></li>
-                <li><a href="http://www.luc.edu/campusministry/index.shtml">Campus Ministry</a></li>
-                <li><a href="http://www.luc.edu/diversity/">Student Diversity</a></li>
-                <li><a href="/about/chicago.shtml">Loyola &amp; Chicago</a></li>
-                <li><a href="/luma/index.shtml">Museum of Art</a></li>
-                <li><a href="/visit/">Visit</a></li>
-                <li><a href="/safety/index.html">Campus Safety</a></li>
-              </ul>
-            </li>
-            <li><a href="/services_resources.shtml">Resources</a>
-              <ul class="multilevel-linkul-0">
-                <li><a href="https://locus.luc.edu">LOCUS</a></li>
-                <li><a href="http://www.luc.edu/bursar/index.shtml">Bursar and Business Office</a></li>
-                <li><a href="/students/careers/index.shtml">Career Centers</a></li>
-                <li><a href="http://www.luc.edu/hr/index.shtml">Human Resources</a></li>
-                <li><a href="http://www.luc.edu/its/">Information Technology Services</a></li>
-                <li><a href="http://www.luc.edu/ic/">Klarchek Information Commons</a></li>
-                <li><a href="http://www.luc.edu/onestop/index.shtml">Sullivan Center for Student Services</a></li>
-                <li><a href="http://libraries.luc.edu/">University Libraries</a></li>
-                <li><a href="http://www.luc.edu/alumni">Alumni Relations</a></li>
-                <li><a href="http://www.luc.edu/news">University Newsroom</a></li>
-              </ul>
-            </li>
-            <li id="nav-mobile"><a class="open" href="#nav">Nav</a></li>
-            <li id="nav-mobile"><a class="second" href="#globallinks">Tools</a></li>
-            <li id="nav-tab"></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row subnave">
-    <div class="span12" id="footer-links"><!-- navigation object : Subsite Menu --> 
-    </div>
-  </div>
-</footer>
-<div class="col-sm-12 bg-gray" id="cta">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-8">
-        <div class="vcard"> <!-- navigation object : Home Footer -->
-          <div class="footercard"> <span class="fn org">Loyola University Chicago</span> · <span class="adr"> <span class="street-address">1032 W. Sheridan Rd.</span>, <span class="locality">Chicago</span>, <span class="region">IL</span> <span class="postal-code">60660</span> </span> · <span class="tel">773.274.3000</span> <a class="email" href="mailto:webmaster@luc.edu">webmaster@luc.edu</a> </div>
-          <a href="http://www.luc.edu/info/copyright_disclaimer.shtml">© Copyright &amp; Disclaimer 2014</a> <img class="logo photo" src="/media/home/images/luc-logo.png" style="visibility:hidden;width:0px;height:0px;"> </div>
-      </div>
-      <div class="col-sm-4"> <a class="logo-tag" href="http://www.luc.edu"> <img src="http://www.luc.edu/media/home/images/loyola-logo-tag.png" alt="Loyola University Chicago"> </a> </div>
-    </div>
-  </div>
-</div>
+		</div>
+	</div>
 
-<!-- Bootstrap core JavaScript
+	<!-- footer-content nav -->
+	
+	<div class="container">
+		<div class="row homenav">
+			<div class="col-md-12" id="footer-links"><!-- navigation object : Home Menu -->
+      				<ul id="nav" class="nav navbar-nav" role="navigation"><!-- navigation object : Home Menu -->
+      					<li class="close" style="display:none;"><span onClick="$.pageslide.close()"><img src="http://www.luc.edu/media/home/images/icon-close.png" alt=""></span></li>
+						<li><a href="/about_loyola.shtml">About</a>
+							<ul class="multilevel-linkul-0" style="display:block;">
+								<li><a href="/president/index.shtml">Office of the President</a></li>
+								<li><a href="/ataglance/">At a Glance</a></li>
+								<li><a href="http://www.luc.edu/mission/index.shtml">Jesuit Catholic Identity</a></li>
+								<li><a href="/visit.shtml">Visit Campus</a></li>
+								<li><a href="/about/chicago.shtml">Loyola and Chicago</a></li>
+								<li><a href="/boardoftrustees/">Board of Trustees</a></li>
+								<li><a href="/president/governance/presidentscabinet/">President's Cabinet</a></li>
+								<li><a href="http://www.luc.edu/regents/index.shtml">Council of Regents</a></li>
+								<li><a href="/accreditation/index.shtml">Accreditation</a></li>
+							</ul>
+						</li>
+						<li><a href="/academicsresearch.shtml">Academics</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="http://luc.edu/academicaffairs/">Academic Affairs</a></li>
+								<li><a href="/academics/schools.shtml">Colleges and Schools</a></li>
+								<li><a href="/academics/depts.shtml">Departments</a></li>
+								<li><a href="/academics/programs.shtml">Programs</a></li>
+								<li><a href="http://www.luc.edu/online/index.shtml">Online Learning</a></li>
+								<li><a href="/academics/schedules/index.shtml">Calendars and Schedules</a></li>
+								<li><a href="http://www.luc.edu/ors/index.shtml">Research</a></li>
+								<li><a href="http://www.luc.edu/studyabroad/index.shtml">Study Abroad Programs</a></li>
+								<li><a href="http://www.luc.edu/academics/catalog/undergrad/index.shtml">Undergraduate Catalog</a></li>
+								<li><a href="http://www.luc.edu/health-sciences-division/index.shtml">Health Sciences Division</a></li>
+							</ul>
+						</li>
+						<li><a href="/admission.shtml">Admission</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="http://www.luc.edu/undergrad/">Undergraduate Admission</a></li>
+								<li><a href="/gpem/index.html">Grad/Professional Admission</a></li>
+								<li><a href="http://www.luc.edu/adult-education/index.shtml">Adult Education</a></li>
+								<li><a href="http://www.luc.edu/quinlan/executive-education/index.shtml">Executive Education</a></li>
+								<li><a href="http://www.luc.edu/internationaladmission/index.shtml">International Admission</a></li>
+								<li><a href="http://www.luc.edu/bursar/tuition.shtml">Tuition and Fees</a></li>
+								<li><a href="http://www.luc.edu/finaid/index.shtml">Financial Aid</a></li>
+								<li><a href="http://www.luc.edu/studyabroad/">Study Abroad</a></li>
+								<li><a href="/januaryterm/index.shtml">J-Term</a></li>
+								<li><a href="http://www.luc.edu/summer/">Summer Sessions</a></li>
+							</ul>
+						</li>
+						<li><a href="/alumni/">Alumni</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=804">News</a></li>
+								<li><a href="http://alumni.luc.edu/s/1548/alumni/social.aspx?sid=1548&gid=2&pgid=401">Events</a></li>
+								<li><a href="http://www.alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=403">Career Services</a></li>
+								<li><a href="http://www.alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=402">Clubs and Groups</a></li>
+								<li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=404">Alumni Services</a></li>
+								<li><a href="http://alumni.luc.edu/s/1548/alumni/index.aspx?sid=1548&gid=2&pgid=405">Get Involved</a></li>
+								<li><a href="http://luc.edu/giving/">Giving to Loyola</a></li>
+							</ul>
+						</li>
+						<li><a href="/campus_community.shtml">Campus Life</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="http://www.loyolaramblers.com/">Athletics</a></li>
+								<li><a href="http://www.luc.edu/reslife/index.shtml">Residence Life</a></li>
+								<li><a href="http://www.luc.edu/studentdevelopment/index.shtml">Student Development</a></li>
+								<li><a href="http://www.luc.edu/saga/">Student Life</a></li>
+								<li><a href="http://www.luc.edu/dos/">Dean of Students</a></li>
+								<li><a href="/ramblerbuzz/">Rambler Buzz</a></li>
+								<li><a href="http://www.luc.edu/campusministry/index.shtml">Campus Ministry</a></li>
+								<li><a href="http://www.luc.edu/diversity/">Student Diversity</a></li>
+								<li><a href="/about/chicago.shtml">Loyola &amp; Chicago</a></li>
+								<li><a href="/luma/index.shtml">Museum of Art</a></li>
+								<li><a href="/visit/">Visit</a></li>
+								<li><a href="/safety/index.html">Campus Safety</a></li>
+							</ul>
+						</li>
+						<li><a href="/services_resources.shtml">Resources</a>
+							<ul class="multilevel-linkul-0">
+								<li><a href="https://locus.luc.edu">LOCUS</a></li>
+								<li><a href="http://www.luc.edu/bursar/index.shtml">Bursar and Business Office</a></li>
+								<li><a href="/students/careers/index.shtml">Career Centers</a></li>
+								<li><a href="http://www.luc.edu/hr/index.shtml">Human Resources</a></li>
+								<li><a href="http://www.luc.edu/its/">Information Technology Services</a></li>
+								<li><a href="http://www.luc.edu/ic/">Klarchek Information Commons</a></li>
+								<li><a href="http://www.luc.edu/onestop/index.shtml">Student Academic Services</a></li>
+								<li><a href="http://www.luc.edu/regrec/index.shtml">Registration and Records</a></li>
+								<li><a href="http://libraries.luc.edu/">University Libraries</a></li>
+								<li><a href="http://www.luc.edu/alumni">Alumni Relations</a></li>
+								<li><a href="http://www.luc.edu/news">University Newsroom</a></li>
+								<li><a href="http://www.luc.edu/archives/index.shtml">University Archives</a></li>
+							</ul>
+						</li>
+      				</ul><!-- #nav -->
+		
+			</div>
+		</div>
+		<div class="row subnave"><div class="span12" id="footer-links"><!-- navigation object : Subsite Menu --></div></div>
+	</div>
+	</footer>
+
+	<!-- footer-address -->
+
+	<div class="container-fluid bg-gray" id="footer-address">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9">
+            		<div class="vcard"> <!-- navigation object : Home Footer -->
+              			<div class="footercard">
+              				<span class="fn org">Loyola University Chicago</span> · <span class="adr"> <span class="street-address">1032 W. Sheridan Rd.</span>, <span class="locality">Chicago</span>, <span class="region">IL</span> <span class="postal-code">60660</span> </span> · <span class="tel">773.274.3000</span> <a class="email" href="mailto:webmaster@luc.edu">webmaster@luc.edu</a>
+              			</div>
+              			<div>
+              				<a href="http://www.luc.edu/info/copyright_disclaimer.shtml">© Copyright &amp; Disclaimer 2014</a> <img class="logo photo" src="/media/home/images/luc-logo.png" style="visibility:hidden;width:0px;height:0px;">
+              			</div>
+          			</div>
+          		</div>
+          		<div class="col-sm-3">
+          			<a class="logo-tag" href="http://www.luc.edu"> <img class="img-responsive" src="http://www.luc.edu/media/home/images/loyola-logo-tag.png" alt="Loyola University Chicago"> </a>
+          		</div>
+        	</div>
+        </div>
+	</div>
+	</section>
+
+	<!-- Bootstrap core JavaScript
     ================================================== --> 
-<!-- Placed at the end of the document so the pages load faster --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
-<!-- Latest compiled and minified JavaScript --> 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-</body>
+	<!-- Placed at the end of the document so the pages load faster --> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+	<!-- Latest compiled and minified JavaScript --> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
+	<script src="js/smooth-scroll.js"></script>
+	<script src="js/functions.js"></script>
+
+<script>	
+	$(window).on('scroll', function() {
+		if ($(window).scrollTop() >= 10) {
+		$('h1.text-muted').fadeIn('slow');
+	} else {
+		$('h1.text-muted').fadeOut('slow');
+	}
+});
+</script>
+	</body>
 </html>
