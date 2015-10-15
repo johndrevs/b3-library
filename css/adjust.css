@@ -379,10 +379,9 @@ GLOBAL - FORM - DROPDOWN
 
 #global-form ul.dropdown-menu { margin-top: -10px; }
 
-#global-form ul.dropdown-menu ul { padding-left: 0; }
+#global-form ul.dropdown-menu  { padding-left: 0; }
 
-#global-form ul.dropdown-menu ul.dropdown-menu-primary li,
-#global-form ul.dropdown-menu ul.dropdown-menu-secondary li {
+#global-form ul.dropdown-menu li {
 	margin: 0;
     padding: 8px 0 8px 0;
     width: 100%;
@@ -394,11 +393,11 @@ GLOBAL - FORM - DROPDOWN
     border-left: 0 none;
 }
 
-#global-form ul.dropdown-menu ul li a { text-decoration: none; background-color: rgba(0,0,0,0); }
+#global-form ul.dropdown-menu  li a { text-decoration: none; background-color: rgba(0,0,0,0); }
 
-#global-form ul.dropdown-menu ul li a:hover { color: #FFFFFF; text-decoration: none; background-color: rgba(0,0,0,0); }
+#global-form ul.dropdown-menu  li a:hover { color: #FFFFFF; text-decoration: none; background-color: rgba(0,0,0,0); }
 
-#global-form ul.dropdown-menu ul li a { color: #EEEEEE; }
+#global-form ul.dropdown-menu  li a { color: #EEEEEE; }
 
 #footer-global-form .form-control {
     font-size: 10px;
