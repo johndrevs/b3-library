@@ -199,7 +199,9 @@ nav#nav-box a, #footer-links a {
     text-decoration: none;
     text-transform: uppercase;
     z-index: 20;
+
 }
+
 
 nav#nav-box a:hover, #footer-links a:hover { color: #FFFFFF; background-color: #272727; }
 
@@ -497,7 +499,8 @@ MEDIA QUERIES
 button.btn.cta span.apply,
 button.btn.cta .visit,
 button.btn.cta span.info,
-button.btn.cta span.give { display: none; }
+button.btn.cta span.give { display: none; },
+
 
 }
 
@@ -695,6 +698,10 @@ footer#footer { padding-top: 50px; }
 #footer-address .col-sm-3 { display: none; }
 
 .go-to-top[style] { left: 15px !important; }
+
+/*JMD-Steve you may want to fix this, but added this to change bar from div to nav*/
+
+nav#nav-box a, #footer-links a {width:auto; margin-top: 7px; margin-bottom: 5px; margin-left:10px;}
 
 }
 

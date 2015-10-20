@@ -49,14 +49,13 @@
 			<div class="row">   
 				<div id="wordmark-wrapper" class="col-sm-6">
 					<!-- <h1 class="text-muted" style="display: none; position: fixed;">Loyola University Chicago</h1> -->
-					<img class="img-responsive" id="wordmark" src="<t4 type='media' id='204724' formatter='path/*'/>"/>
+                  <a href="http://www.luc.edu"><img class="img-responsive" id="wordmark" src="<t4 type='media' id='204724' formatter='path/*'/>"/></a>
 				</div>
 				<div id="global-form-wrapper" class="col-md-4 col-sm-6 col-md-offset-2">
 					<div class="row">
 						<nav id="global" class="navbar navbar-inverse">
       						<div id="navbar-global">
-        						<ul class="nav navbar-nav" id="global-links" role="navigation">
-          							
+        						<ul class="nav navbar-nav" id="global-links" role="navigation">          							
 									<li><a href="http://www.luc.edu/a-z/index.html">A&ndash;Z</a></li>
 									<li><a href="http://www.luc.edu/about/contactus.shtml">Contact</a></li>
 									<li><a href="http://www.luc.edu/directories/index.shtml">Directories</a></li>
@@ -73,7 +72,7 @@
           		   					<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Links <i class="glyphicon glyphicon-chevron-right"></i></button>
            	   							<ul class="dropdown-menu" role="menu">
                     						<!-- Media include : Global Quick Links -->
-                                            <t4 type="media" id="77813" formatter="plain/text"/>
+                                           <t4 type="navigation" id="539"/>
 										</ul>
 								</div><!-- INPUT-GROUP-BTN -->
                 					<input type="text" class="form-control" aria-label="...">
@@ -104,7 +103,7 @@
 					<div class="collapse navbar-collapse" id="navbar-main">
 
 						<ul id="nav" class="nav navbar-nav" role="navigation">
-                        <!-- navigation object : Home Menu -->
+                        <!-- navigation object : University Menu -->
 						<t4 type="navigation" id="538"/>
       					</ul><!-- #nav --> 
 
@@ -116,7 +115,7 @@
 	</nav><!-- nav-box -->
 
   	
-  	<div class="fullbleed bg-smoke navbar-fixed-top subnave" id="nav-box">
+  	<nav class="fullbleed bg-smoke navbar-fixed-top subnave" id="nav-box">
 		<div class="container">
 		<div class="row">
 			<div id="subsite-nav" class="navbar navbar-inverse">
@@ -129,7 +128,7 @@
 					</a>
           		<div class="nav-collapse collapse">
             		<ul class="nav">
-						<!-- navigation object : Home Menu -->
+						<!-- navigation object : Site Menu -->
                         <t4 type="navigation" id="251"/>
             		</ul>
 				</div>	<!-- .nav-collapse -->
@@ -137,38 +136,56 @@
       		</div>	<!-- subsite-nav -->
       	</div>
     	</div>		<!-- container --> 
-  	</div>			<!-- fullbleed -->
+  	</nav>			<!-- fullbleed -->
 
 <!-- main-content -->
 
-	<div class="container" id="main-content">
-		<div class="row">
-			<div class="col-md-6 col-md-push-3 module">
-			<div class="col-sm-12 bg-white col-padding-add">
-				<h3 class="antenna-black text-center text-uppercase">Center Column</h1>
-				<p class="lead antenna text-center text-uppercase">Use this document as a way to quickly start any new project.</p>
-				<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit ligula a justo dignissim, in suscipit magna lobortis. Donec auctor iaculis maximus. Morbi nulla erat, lacinia ut lacus et, pulvinar cursus nunc. Proin id imperdiet velit, ac accumsan lacus. Mauris bibendum eget magna at tempor. Duis sed enim ac enim porttitor</p>
-			</div>
-			</div>
-			<div class="col-md-3 col-md-pull-6 module">
-			<div class="col-sm-12 bg-white col-padding-add">
-				<h3 class="antenna-black text-center text-uppercase">Left Column</h1>
-				<p class="lead antenna text-center text-uppercase">Use this document as a way to quickly start any new project.</p>
-				<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit ligula a justo dignissim, in suscipit magna lobortis. Donec auctor iaculis maximus. Morbi nulla erat, lacinia ut lacus et, pulvinar cursus nunc. Proin id imperdiet velit, ac accumsan lacus. Mauris bibendum eget magna at tempor. Duis sed enim ac enim porttitor</p>
-			</div>
-			</div>
-			<div class="col-md-3">
-			<div class="col-sm-12 bg-white col-padding-add module">
-				<h3 class="antenna-black text-center text-uppercase">Right Column</h1>
-				<p class="lead antenna text-center text-uppercase">Use this document as a way to quickly start any new project.</p>
-				<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit ligula a justo dignissim, in suscipit magna lobortis. Donec auctor iaculis maximus. Morbi nulla erat, lacinia ut lacus et, pulvinar cursus nunc. Proin id imperdiet velit, ac accumsan lacus. Mauris bibendum eget magna at tempor. Duis sed enim ac enim porttitor</p>
-			</div>
-			</div>
-		</div>
-	</div>
+<!-- footer-content --> 
 
-<!-- main-content -->
+<!-- footer-content cta -->
 
+<section id="footer-content" class="">
+  <div class="container-fluid" id="cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="col-span-25">
+            <div class="btn-group">
+              <button class="btn cta">Apply<span class="apply">&nbsp;now</span></button>
+              <button class="btn dropdown-toggle cta" data-toggle="dropdown"><i class="glyphicon glyphicon-chevron-right"></i></button>
+              <ul class="dropdown-menu">
+                <li><a href="https://uao.luc.edu/apply/" onclick="ga('send', 'event', 'Clicks', 'Apply-Undergraduate', 'Home Page');">Undergraduate</a></li>
+                <li><a href="https://gpem.luc.edu/apply/" onclick="ga('send', 'event', 'Clicks', 'Apply-Graduate', 'Home Page');">Graduate/ Professional</a></li>
+                <li><a href="https://gpem.luc.edu/apply/" onclick="ga('send', 'event', 'Clicks', 'Apply-Adult', 'Home Page');">Adult Education</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-span-25">
+            <div class="btn-group">
+              <button class="btn cta"><span class="info">Get&nbsp;</span>info</button>
+              <button class="btn dropdown-toggle cta" data-toggle="dropdown"><i class="glyphicon glyphicon-chevron-right"></i></button>
+              <ul class="dropdown-menu">
+                <li><a href="https://uao.luc.edu/register/?id=09e1ac8b-c620-43cc-afe7-325cad54eec2" onclick="ga('send', 'event', 'Clicks', 'RFI-Undergraduate', 'Home Page');">Undergraduate</a></li>
+                <li><a href="http://www.luc.edu/gpem/rfi" onclick="ga('send', 'event', 'Clicks', 'RFI-Graduate', 'Home Page');">Graduate/ Professional</a></li>
+                <li><a href="http://www.luc.edu/adult-education/rfi/index.shtml" onclick="ga('send', 'event', 'Clicks', 'RFI-Adult', 'Home Page');">Adult Education</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-span-25"> <a href="http://www.luc.edu/visit.shtml" onclick="ga('send', 'event', 'Clicks', 'Come Visit', 'Home Page');">
+            <button class="btn cta visit"><span class="visit">Come&nbsp;</span>visit</button>
+            </a> </div>
+          <div class="col-span-25"> <a href="http://www.luc.edu/give/" onclick="ga('send', 'event', 'Clicks', 'Give to Loyola', 'Home Page');">
+            <button class="btn cta">Give<span class="give">&nbsp;to Loyola</span></button>
+            </a> </div>
+        </div>
+        <div id="social-wrapper" class="col-md-4 col-md-12"> 
+          <!-- navigation object : cta-social-icons -->
+          <t4 type="navigation" id="398"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 <!-- footer-content -->
 
 	<!-- footer-content cta -->
@@ -240,7 +257,7 @@
 		<div class="row homenav">
 			<div class="col-md-12" id="footer-links">
       				<ul id="nav" class="nav navbar-nav" role="navigation">
-                    	<!-- navigation object : university Menu -->
+                    	<!-- navigation object : University Menu -->
                         <t4 type="navigation" id="538"/>
       				</ul><!-- #nav -->
 		
